@@ -16,7 +16,7 @@
 		A435258C1E6D9C4100BF61AF /* CIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A435258B1E6D9C4100BF61AF /* CIUITests.swift */; };
 		A435259B1E6D9D9600BF61AF /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = A435259A1E6D9D9600BF61AF /* fastlane */; };
 		A435259D1E6D9DB400BF61AF /* circle.yml in Resources */ = {isa = PBXBuildFile; fileRef = A435259C1E6D9DB400BF61AF /* circle.yml */; };
-		A435259F1E6D9DCC00BF61AF /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = A435259E1E6D9DCC00BF61AF /* Scripts */; };
+		A47B6DC11E6DA1690017D034 /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = A47B6DC01E6DA1690017D034 /* Scripts */; };
 		AA2F3822548A9E46647E39FB /* Pods_Abstract_CITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4209F7D7F7804FDD9D43E0E5 /* Pods_Abstract_CITests.framework */; };
 		BDC4405A63376F8493888AE6 /* Pods_Abstract_CI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445FC5A5B0F683027600D9B0 /* Pods_Abstract_CI.framework */; };
 		F5C3CC12FFF2B18828E0BE59 /* Pods_Abstract_CIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1976EAE890D90381FFCDFFF5 /* Pods_Abstract_CIUITests.framework */; };
@@ -61,7 +61,7 @@
 		A435258D1E6D9C4100BF61AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A435259A1E6D9D9600BF61AF /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
 		A435259C1E6D9DB400BF61AF /* circle.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = circle.yml; sourceTree = "<group>"; };
-		A435259E1E6D9DCC00BF61AF /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Scripts; sourceTree = "<group>"; };
+		A47B6DC01E6DA1690017D034 /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Scripts; path = CI/Scripts; sourceTree = "<group>"; };
 		CD8F021E93DDB9A55F558EC8 /* Pods-Abstract-CIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-CIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-CIUITests/Pods-Abstract-CIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F13707B9684AEF1BBE25406E /* Pods-Abstract-CIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-CIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-CIUITests/Pods-Abstract-CIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FB4BF12A7734CB2D669BBCA6 /* Pods-Abstract-CI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-CI.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-CI/Pods-Abstract-CI.release.xcconfig"; sourceTree = "<group>"; };
@@ -166,7 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				A435259C1E6D9DB400BF61AF /* circle.yml */,
-				A435259E1E6D9DCC00BF61AF /* Scripts */,
+				A47B6DC01E6DA1690017D034 /* Scripts */,
 				A435259A1E6D9D9600BF61AF /* fastlane */,
 			);
 			name = "Supporting Files";
@@ -301,7 +301,7 @@
 				A43525761E6D9C4000BF61AF /* LaunchScreen.storyboard in Resources */,
 				A43525731E6D9C4000BF61AF /* Assets.xcassets in Resources */,
 				A435259D1E6D9DB400BF61AF /* circle.yml in Resources */,
-				A435259F1E6D9DCC00BF61AF /* Scripts in Resources */,
+				A47B6DC11E6DA1690017D034 /* Scripts in Resources */,
 				A435259B1E6D9D9600BF61AF /* fastlane in Resources */,
 				A43525711E6D9C4000BF61AF /* Main.storyboard in Resources */,
 			);
